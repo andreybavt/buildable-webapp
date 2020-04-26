@@ -12,6 +12,7 @@
     "baseType": "STANDARD", // WARNING: do not change
     "hasBackend": "false",
     "noJSSecurity": "false",
+    "enableJavascriptModules": "true",
     "standardWebAppLibraries": ["jquery","dataiku"],
 
     /* The field "params" holds a list of all the params
