@@ -12,6 +12,8 @@
     "hasBackend": "false",
     "noJSSecurity": "false",
     "enableJavascriptModules": "true",
+    "isBuildable": "true",
+    "htmlFilePath": "dist/index.html",
     "standardWebAppLibraries": ["jquery","dataiku"],
 
     /* The field "params" holds a list of all the params
