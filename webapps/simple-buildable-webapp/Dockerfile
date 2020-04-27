@@ -4,7 +4,7 @@ WORKDIR /app
 COPY package.json /app
 RUN npm install --silent
 
-CMD npx ng build
+npx grunt asd a && npx vue build
 
 #CMD npx ng serve --host №0.0.0.0
 
