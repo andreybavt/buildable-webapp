@@ -5,8 +5,8 @@ COPY package.json /app
 RUN npm install
 
 COPY build.sh /app
-ENTRYPOINT sh
-CMD ./build.sh
+RUN chmod +x ./build.sh
+ENTRYPOINT sh ./build.sh
 
 #RUN npm run build
 #RUN npx ng build
