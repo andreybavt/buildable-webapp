@@ -15,6 +15,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "postbuild": "mv build dist",
+    "prebuild": "rm -rf dist",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
