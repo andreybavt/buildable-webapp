@@ -1,1 +1,1 @@
-npx vue-cli-service build --watch
+npx vue-cli-service build
