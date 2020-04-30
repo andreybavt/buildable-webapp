@@ -10,6 +10,7 @@
             <img src="../assets/lance.jpg" class="team">
             <img src="../assets/thibault.jpg" class="team">
         </div>
+        <p>Slack <span class="slack">#hackaiku-buildable-webapps</span></p>
 
     </div>
 </template>
@@ -30,6 +31,9 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+    .slack{
+        font-weight: bold;
+    }
     .team{
         border-radius: 100%;
         height: 80px;
